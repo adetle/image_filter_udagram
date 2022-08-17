@@ -27,6 +27,10 @@ We've included a few helper functions to handle some of these concepts and we're
 import {filterImageFromURL, deleteLocalFiles} from './util/util';
 ```
 
+### Endpoint for the oluleye_image_filter_udagram
+
+http://oluleye-image-udagram-filter-dev.us-east-1.elasticbeanstalk.com/imagefilter?image_url=https://images.pexels.com/photos/12312/pexels-photo-12312.jpeg?auto=compress&cs=tinysrgb&w=800
+
 ### Deploying your system
 
 Follow the process described in the course to `eb init` a new application and `eb create` a new environment to deploy your image-filter service! Don't forget you can use `eb deploy` to push changes.
