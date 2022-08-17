@@ -32,7 +32,7 @@ dotenv.config();
 
   /**************************************************************************** */
   app.get("/imagefilter", async (req: Request, res: Response) => {
-    const img_url = req.query.image_url.toString();
+    const img_url = req.query.image_url;
 
     if(!img_url) {
       return res.status(400).send({message: "Image url is required here!"});
@@ -50,7 +50,7 @@ dotenv.config();
   // Root Endpoint
   // Displays a simple message to the user
   app.get( "/", async ( req, res ) => {
-    res.send("try GET /filteredimage?image_url={{}}")
+    res.send("try GET /imagefilter?image_url={{}}")
   } );
   
 
