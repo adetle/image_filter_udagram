@@ -32,7 +32,7 @@ dotenv.config();
 
   /**************************************************************************** */
   app.get("/imagefilter", async (req: Request, res: Response) => {
-    const img_url = req.query.image_url.toString();
+    const img_url = req.query.image_url;
 
     if(!img_url) {
       return res.status(400).send({message: "Image url is required here!"});

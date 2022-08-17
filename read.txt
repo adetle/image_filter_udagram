@@ -1,0 +1,2 @@
+git repository:   https://github.com/adetle/image_filter_udagram
+Image filter Endpoint:  http://oluleye-image-udagram-filter-dev.us-east-1.elasticbeanstalk.com/imagefilter?image_url=https://images.pexels.com/photos/12312/pexels-photo-12312.jpeg?auto=compress&cs=tinysrgb&w=800
