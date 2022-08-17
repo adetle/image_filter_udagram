@@ -1,0 +1,14 @@
+{
+	"folders": [
+		{
+			"path": "../../exercises/udacity-c2-restapi"
+		},
+		{
+			"path": "../../exercises/udacity-c2-frontend"
+		},
+		{
+			"path": "."
+		}
+	],
+	"settings": {}
+}
